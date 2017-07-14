@@ -15,9 +15,9 @@ import java.util.List;
 @Data
 public class Team {
     @Id
-    long id;
-    String name;
+    private long id;
+    private String name;
 
     @OneToMany(mappedBy = "team")
-    List<Score> scores;
+    private List<Score> scores;
 }

@@ -14,8 +14,8 @@ import java.util.List;
 @Data
 public class League {
     @Id
-    long id;
+    private long id;
 
     @OneToMany
-    List<Team> teams;
+    private List<Team> teams;
 }
